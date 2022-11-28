@@ -16,14 +16,12 @@
         </p>
         <p>GitHub essentials are:</p>
         <ul>
-            
             <li>Repositories</li>
-               <li>Branches</li>
-                <li>Commits</li>
-                <li>Pull Requests</li>
-                <li>Git (the version control software GitHub is built on)</li>
+            <li>Branches</li>
+            <li>Commits</li>
+            <li>Pull Requests</li>
+            <li>Git (the version control software GitHub is built on)</li>
         </ul>
-        
             <img style = "height: 300px; height: 350px;" src="./images/GITHUB.png" alt="sorry">
     </div>
     <div>
@@ -32,7 +30,31 @@
             create a new directory name [project name] and will initialize a
             repository inside it. If [project name] is not provided, then a new
             repository is initialized in the current directory.</p>
+
+            <h3>Command:  git init</h3>
             <img src="./images/git init.png" alt="sorry">
     </div>
+    <div>
+        <h2>Adding Remote Repository</h2>
+        <p>To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.</p>
+        <p>The git remote add command takes two arguments:</p>
+        <ul>
+            <li>A unique remote name, for example, “origin”</li>
+            <li>A remote URL, which you can find on the Source sub-tab of your Git repo</li>
+        </ul>
+        <h3>Command:  git remote add origin https://github.com/sheriamjad/GitDetailWebPage_A-1.git</h3>
+            <img src="./images/remote add.png" alt="sorry">
+    </div>
+    <div>
+        <h2>Pushing in Remote Repository</h2>
+        <p>The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , 
+            but whereas fetching imports commits to local branches, pushing exports commits to remote branches.</p>
+            <h3>Command: git push -u origin master</h3>
+
+            <img src="./images/git push.png" alt="sorry">
+    </div>
+
+
+
 </body>
 </html>
