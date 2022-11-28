@@ -1,5 +1,7 @@
 body {
     background-color: whitesmoke;
+    margin-left: 100px ;
+    margin-right: 100px;
   }
   h2{
     background-color: lightgrey;
@@ -15,6 +17,10 @@ body {
   img{
     margin-left: 100px;
     margin-right: 20px;
+  }
+  h3{
+    margin-left: 20px;
+    color: blue;
   }
  .heading {
     background-color: gray;
